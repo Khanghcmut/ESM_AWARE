@@ -6,7 +6,7 @@
                 "randomize":5,
                 "notification_title":"The title of the notification",
                 "notification_body":"The notification body of the notification",
-                "esms":[
+                "esms":[{"esm":{"esm_type":2,"esm_radios":["Radio 1","Radio 2"],"esm_title":"Radios","esm_instructions":"Radios ESM","esm_submit":"OK"}},
                   {"esm": {
                     "esm":{"esm_type":2,
                     "esm_radios":[1,2,3,4,5],

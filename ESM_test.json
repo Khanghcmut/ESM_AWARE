@@ -78,23 +78,15 @@
         "esm_title":"Did you skip class",
         "esm_flows":[{
           "user_answer":"Yes",
-          "next_esm":[
-            
-            {"esm":{
-              "esm_type":1,
-              "esm_title":"How many class did you skipped",
-              "esm_trigger":"an esm queue from AWARE",
-              "esm_instructions":"How many class did you skipped ",
-              "esm_submit":"Next!"
-            }},
+          "next_esm":
             {"esm":{
             "esm_type":1,
             "esm_title":"Skip class reason",
             "esm_trigger":"an esm queue from AWARE",
-            "esm_instructions":"Please tell us why you skipped class. ",
+            "esm_instructions":"Please tell us why you skipped class.",
             "esm_submit":"Thanks!"}
 
-          }]
+          }
           }
           ,
             {"user_answer":"No",

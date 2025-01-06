@@ -56,7 +56,7 @@
                 "esm_type":2,
                 "esm_radios":["Not at all", "Not really","No comments","You can say that","Yes all the way"],
                 "esm_title":"Questionairs",
-                "esm_instructions":"Have you feel exhausted due to a lot of homework for tomorrow?",
+                "esm_instructions":"Have you feel worry due to a lot of homework for tomorrow?",
                 "esm_submit":"Next"
               }
 
@@ -86,7 +86,7 @@
           "esm_type":2,
           "esm_radios":["Not at all", "Not really","No comments","You can say that","Yes all the way"],
           "esm_title":"Questionairs",
-          "esm_instructions":"You have a lot of chatting today, isn't it?",
+          "esm_instructions":"You are hoping for tomorrow comes, isn't it?",
           "esm_submit":"Next"
         }
 
@@ -128,7 +128,7 @@
       "esm_title":"Anything you want to say!",
       "esm_trigger":"an esm queue from AWARE",
       "esm_submit":"Thanks a lot!",
-      "esm_instructions":"Please tell us your feeling for today"}}
+      "esm_instructions":"Please tell us more about your feeling for today"}}
 
                 ]
 }

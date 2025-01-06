@@ -1,19 +1,15 @@
 [{"schedule_id":"condition_check_v1",
-                "hours":[-1],
+                "hours":[12,20,21,22],
                 "start_date":"10-28-2024",
                 "end_date":"12-28-2025",
-                "expiration":10,
-                "randomize":5,
-                "notification_title":"The title of the notification",
-                "notification_body":"The notification body of the notification",
-                "esms":[{"esm":{"esm_type":2,
-                "esm_radios":["Radio 1","Radio 2"],
-                "esm_title":"Radios",
-                "esm_instructions":"Radios ESM",
-                "esm_submit":"OK"}},
+                "expiration":30,
+                "randomize":0,
+                "notification_title":"Please fill the survey",
+                "notification_body":"Can you fill the survey for the research?",
+                "esms":[
                   {"esm": {
                     "esm_type":2,
-                    "esm_radios":["1","2","3","4","5"],
+                    "esm_radios":["1 🥳","2 😄","3 🙃","4 🥵","5 😰"],
                     "esm_title":"Your mood",
                     "esm_instructions":"Can you tell us about your mood? select by option that fit you from 1 to 5 🥳, 😄, 🙃, 🥵, 😰",
                     "esm_submit":"Next"
@@ -23,13 +19,38 @@
                 },
                 {
                   "esm":{"esm_type":2,
+                  "esm_radios":["No", "Not really","Maybe","You can say that","Yes all the way"],
+                  "esm_title":"Questionairs",
+                  "esm_instructions":"In the this day, do you feel unable to control the important things in your life?",
+                  "esm_submit":"Next"}
+              },
+              {
+                "esm":{"esm_type":2,
+                "esm_radios":["No", "Not really","Maybe","You can say that","Yes all the way"],
+                "esm_title":"Questionairs",
+                "esm_instructions":"In the this day, do you feel confident about your ability to handle your personal problems?",
+                "esm_submit":"Next"}
+            },
+            {
+              "esm":{"esm_type":2,
+              "esm_radios":["No", "Not really","Maybe","You can say that","Yes all the way"],
+              "esm_title":"Questionairs",
+              "esm_instructions":"In the this day, do you think things were going your way?",
+              "esm_submit":"Next"}
+          },
+          {
+            "esm":{"esm_type":2,
+            "esm_radios":["No", "Not really","Maybe","You can say that","Yes all the way"],
+            "esm_title":"Questionairs",
+            "esm_instructions":"In the this day, do you feel unable to solve all of your issues?",
+            "esm_submit":"Next"}
+        },
+                {
+                  "esm":{"esm_type":2,
                   "esm_radios":["Not at all", "Not really","No comments","You can say that","Yes all the way"],
                   "esm_title":"Questionairs",
                   "esm_instructions":"Have you feel exhausted due to a lot of class up to now?",
                   "esm_submit":"Next"}
-                
-
-
               },
               {"esm": {
                 "esm_type":2,
@@ -107,7 +128,7 @@
       "esm_title":"Anything you want to say!",
       "esm_trigger":"an esm queue from AWARE",
       "esm_submit":"Thanks a lot!",
-      "esm_instructions":"Anything for today you wanna say?"}}
+      "esm_instructions":"Please tell us your feeling for today"}}
 
                 ]
 }
